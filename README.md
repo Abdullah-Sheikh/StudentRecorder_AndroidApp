@@ -1,4 +1,4 @@
-# StudentRecorder_AndroidApp
+# StudentRecorder AndroidApp 😊🚀 Dark theme 🏴
 
 
 
