@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StudentRecorder" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0785f8</item>
+        <item name="colorPrimaryVariant">#f1f2f5</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#595A5A</item>
+        <item name="colorSecondaryVariant">#9eafd0</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="LightTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0785f8</item>
+        <item name="colorPrimaryVariant">#f1f2f5</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#595A5A</item>
+        <item name="colorSecondaryVariant">#9eafd0</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0785f8</item>
+        <item name="colorPrimaryVariant">#0d0e14</item>
+        <item name="colorOnPrimary">#1f2127</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#D5D5D5</item>
+        <item name="colorSecondaryVariant">#5a687a</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">#0785f8</item>
+        <item name="colorPrimaryVariant">#f1f2f5</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
